@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook Air",
+      "price": 900,
+      "year": 2021,
+      "image": "assets/images/6ac63fa27eb76bb5491a83af9b39cf46.jpg",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro (Intel)",
+      "price": 1000,
+      "year": 2019,
+      "image": "assets/images/6ac63fa27eb76bb5491a83af9b39cf46.jpg",
+      "configure": {
+        "chip": "Intel Core i5",
+        "SSD": "512 GB",
+        "memory": "32 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "MacBook Pro M1 ",
+      "price": 1200,
+      "year": 2020,
+      "image": "assets/images/6ac63fa27eb76bb5491a83af9b39cf46.jpg",
+      "configure": {
+        "chip": "M1 Pro",
+        "SSD": "1 TB",
+        "memory": "24 GB",
+        "display": "Retina"
+      }
+    }
+  ],
+  "basket": []
+}

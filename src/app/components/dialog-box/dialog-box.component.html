@@ -1,0 +1,50 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="example-form">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Add title</mat-label>
+    <input matInput formControlName="title" />
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Add price</mat-label>
+    <input matInput formControlName="price" type="number" /> </mat-form-field
+  ><mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Add year</mat-label>
+    <input matInput formControlName="year" type="number" /> </mat-form-field
+  ><mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Add chip</mat-label>
+    <input matInput formControlName="chip" />
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Add SSD</mat-label>
+
+    <input matInput formControlName="ssd" />
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Add memory</mat-label>
+
+    <input matInput formControlName="memory" />
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Add display</mat-label>
+
+    <input matInput formControlName="display" />
+  </mat-form-field>
+
+  <button
+    class="button"
+    mat-flat-button
+    style="margin-right: 10px"
+    color="primary"
+    type="submit"
+  >
+    Submit
+  </button>
+  <button
+    class="button"
+    mat-flat-button
+    color="primary"
+    (click)="onNoClick()"
+    type="button"
+  >
+    Cancel
+  </button>
+</form>
